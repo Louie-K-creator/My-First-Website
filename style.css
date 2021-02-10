@@ -17,6 +17,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 999;
+  color: grey;
 }
 
 .navigation a:hover {
@@ -32,7 +33,7 @@ body {
 }
 
 #taskbar {
-  color: grey;
+
   font-family: 'Oxygen', sans-serif;
   font-size: 18px;
   font-weight: 300;
