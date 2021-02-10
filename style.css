@@ -19,7 +19,7 @@ body {
   z-index: 999;
 }
 
-.navigation:hover {
+.navigation .a:hover {
   background-color: grey;
   color: lightgrey;
 }
