@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>About Louie</title>
+</head>
+
+<body>
+<nav class="navigation">
+
+    <a id="taskbar" href="./Homepage.html">Home</a>
+    <a id="taskbar" href="./About Me.html">About Me</a>
+    <a id="taskbar" href="./Contact Me.html">Contact Me</a>
+    <a id="taskbar" href="./Playground.html">Playground</a>
+</nav>
+<br><br><br>
+<header>
+    <h1>About Louie</h1>
+</header>
+<section class="films">
+<h2 id="films2">Films I Like</h2>
+<ul>
+    <li>The Dark Knight</li>
+    <li>The Bourne Trilogy</li>
+    <li>Indiana Jones Trilogy</li><li>Goodfellas</li>
+    <li>Saving Private Ryan</li>
+    <li>Dogma</li>
+    <li>Airplane</li>
+    <li>Django</li>
+</ul>
+</section>
+<div>
+    <iframe width="789" height="335" src="https://www.youtube.com/embed/EXeTwQWrcwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
+
+<form class="quizquiz" action="Submit.html" method="POST">
+    <fieldset>
+        <legend id="legend">How well do you know the above films?</legend>
+        <section id="question1" name="quiz">
+            <h3>Who played batman in <em>Batman: The Dark Knight?</em></h3>
+            <input type="radio" id="christian" name="batman" value="christian">
+            <label for="christian">Christian Bale</label>
+            <input type="radio" id="harrison" name="batman" value="harrison">
+            <label for="harrison">Harrison Ford</label>
+            <input type="radio" id="george" name="batman" value="george">
+            <label for="george">George Clooney</label>
+        </section>
+
+        <section id="question2" name="quiz">
+            <h3>Who played <em>Goose</em> in <em>Topgun</em></h3>
+            <input type="radio" id="tom" name="topgun" value="tom">
+            <label for="tom">Tom Cruise</label>
+            <input type="radio" id="anthony" name="topgun" value="anthony">
+            <label for="anthony">Anthony Edwards</label>
+            <input type="radio" id="val" name="topgun" value="val">
+            <label for="val">Val Kilmer</label>
+        </section>
+
+        <section id="finalquestion" name="quiz">
+            <h3>How much did you enjoy this quiz?</h3>
+            <span>Would rather shoot myself</span>
+            <input type="range" min="0" max="10" name="enjoyment" id="enjoyment">
+            <span>Fucking loved it so much</span>
+            <div class="submission">
+                <input type="submit" value="Submit">
+            </div>
+
+        </section>
+
+
+    </fieldset>
+</form>
+
+<footer>
+    <a href="./Homepage.html"><h3>Home</h3></a>
+</footer>
+
+</body>
+</html>
