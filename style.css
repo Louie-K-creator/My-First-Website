@@ -43,7 +43,7 @@ a:visited {
 
 
 #taskbar {
-
+  color: grey;
   font-family: 'Oxygen', sans-serif;
   font-size: 18px;
   font-weight: 300;
